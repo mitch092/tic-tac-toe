@@ -43,7 +43,7 @@ const config: webpack.Configuration = {
       extensions: ["js", "jsx", "ts", "tsx"],
     }),
   ],
-  devtool: "inline-source-map",
+  devtool: "eval-source-map",
   devServer: {
     contentBase: path.join(__dirname, "build"),
     historyApiFallback: true,
